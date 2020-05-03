@@ -10,8 +10,8 @@ class colour:
     bold = '\033[1m'
     end = '\033[0m'
 
-auth = tweepy.OAuthHandler("Xh1X0RgIuFmH14zkrCagFBfUH", "jHiX0qvRmVGKILKxBIE91sB3HFR3cMci846fYYBdChUjcp6Tbi")
-auth.set_access_token("896644687301414913-BjZiL8OdijzcUouJ29tCUjIO2L1RPOz", "gkhg43hubis8hYSL1FPMd1XS5CfUd99nfoIX2uRoJhylt")
+auth = tweepy.OAuthHandler("api", "api")
+auth.set_access_token("api", "api")
 api = tweepy.API(auth)
 print(colour.purple, 'Connected to APIs', colour.end)
 
